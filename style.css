@@ -1,0 +1,110 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Gilroy';
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:whitesmoke;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0px 30px;
+}
+h4{
+    font-size: 18px;
+    
+    font-weight: 400;
+}
+#nav i {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: 500;
+}
+#center{
+    
+    width: 100%;
+    
+    padding: 20px 90px;
+}
+#center h1{
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 80px;
+}
+#center-in{
+    height: 180px;
+   
+   
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#center-in p{
+    line-height: 33px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+#right{
+    width: 20%;
+    
+  
+}
+.elem{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   border-top: 2px solid black;
+    padding: 20px 0px;
+}
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+}
+.elem:hover i{
+    opacity: 1;
+    
+}
+.elem:hover{
+    background-color: rgb(244, 240, 240);
+}
+.elem:hover a {
+    text-decoration: underline;
+}
+
+#bottom{
+    height: 29.7%;
+    width: 100%;
+    background-color: rebeccapurple;
+    background-image: url(https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW9kZWx8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    background-position: 0 7%;
+}
